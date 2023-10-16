@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+android:paddingLeft="21dp"
+    android:paddingRight="21dp"
+    android:paddingBottom="11dp"
+    android:background="@color/design_default_color_secondary"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Contact"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:id="@+id/dialogType"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:paddingHorizontal="35dp"
+        android:paddingTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtName"
+        android:background="#fff"
+     android:padding="11dp"
+        android:hint="Enter name"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:id="@+id/edtNumber"
+        android:hint="Enter number"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:padding="11dp"
+        android:background="#fff"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:textAllCaps="true"
+        android:id="@+id/btnAction"
+        android:textStyle="bold"
+        android:layout_marginTop="11dp"
+        android:layout_gravity="end"
+        android:textColor="@color/design_default_color_secondary"
+        android:backgroundTint="#fff"/>
+
+</LinearLayout>
+

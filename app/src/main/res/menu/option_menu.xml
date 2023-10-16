@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+
+    android:id="@+id/btnDial"
+    android:icon="@drawable/ic_baseline_create_new_folder_24"
+    android:title="Contact Number"
+    app:showAsAction="always"/>
+    <item
+        android:id="@+id/btnEmail"
+        android:title="Email"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_open_in_browser_24"/>
+    <item
+        android:id="@+id/btnMsg"
+        android:title="Message"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_save_24"/>
+    <item
+        android:id="@+id/btnShare"
+        android:title="Share"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_save_24"/>
+   <item
+       android:id="@+id/btnFragment"
+       android:title="Fragment"/>
+    <item
+        android:id="@+id/btnFrame"
+        android:title="Frame Layout"/>
+    <item
+        android:id="@+id/btnTab"
+        android:title="Tab Layout"/>
+<item
+    android:id="@+id/bottomNavigation"
+    android:title="Bottom navigation"/>
+    <item
+        android:id="@+id/drawerNavigation"
+        android:title="Drawer Navigation"/>
+
+</menu>

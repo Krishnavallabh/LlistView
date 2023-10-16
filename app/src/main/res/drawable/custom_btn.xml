@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item>
+    <shape android:shape="rectangle">
+        <solid android:color="#36DFC5"/>
+      //<stroke/>
+        //    android:color="#C54C68"
+        //    android:dashGap="4dp"
+         //   android:width="4dp"
+           // android:dashWidth="4dp"/>
+<!--        <corners-->
+<!--            android:bottomLeftRadius="350dp"-->
+<!--            android:topRightRadius="350dp"-->
+<!--          />-->
+        //size will apply when we use wrap content
+        <size
+            android:width="100dp"
+            android:height="100dp"/>
+        <gradient
+   android:startColor="#589CD1"
+            android:endColor="#D1C0C0"
+
+            android:angle="270"
+            android:type="radial"
+           android:centerColor="#CF3636"
+            android:gradientRadius="50dp"
+            android:centerX="0.5"
+            android:centerY="0"/>
+
+
+
+
+
+
+
+    </shape>
+</item>
+
+</selector>
